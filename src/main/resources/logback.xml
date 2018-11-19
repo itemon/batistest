@@ -2,7 +2,6 @@
 <configuration debug="true">
     <property name="LOG_HOME" value="${CATALINA_BASE}/logs" />
 
-    <!--<property name="LOG_HOME" value="/home/tujia/www/fetujia/logs" />-->
     
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">   
         <!-- encoder 默认配置为PatternLayoutEncoder -->   
